@@ -19,7 +19,7 @@ class Report extends Component {
   render() {
     return (
       <div className="content">
-        <h2><a href="https://github.com/knasenn/jsramverk">Github link</a></h2>
+        <h3><a href="https://github.com/knasenn/jsramverk">Github link</a></h3>
         <ReactMarkdown source={this.state.terms} />
       </div>
     )

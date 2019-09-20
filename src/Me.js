@@ -18,7 +18,7 @@ const Me = () => {
 
   return (
     <main>
-      <h1>{text.title}</h1>
+      <h3>{text.title}</h3>
       <p>{text.body}</p>
     </main>
   );
